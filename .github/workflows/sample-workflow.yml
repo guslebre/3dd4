@@ -2,7 +2,7 @@ name: sample-workflow
 on: [push]
 jobs: 
   explore-first-github-workflow:
-    runs-on: unbutu-latest
+    runs-on: ubuntu-latest
     steps:
       - run: echo "The Job was automatically triggered by a ${{ github.event_name }} event."
       - run: echo " this job is running on  a ${{ runner.os }} server hosted by GitHub"
