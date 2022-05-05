@@ -1,4 +1,4 @@
-name: label-issues
+name: label issues
 on:
   issues:
     types:
@@ -10,7 +10,7 @@ jobs:
     permissions:
       issues: write
     steps:
-      - name: Label Issues
+      - name: Label issues
         uses: andymckay/labeler@1.0.2
         with:
           add-labels: "triage"
